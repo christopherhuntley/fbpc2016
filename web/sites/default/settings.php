@@ -284,7 +284,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'aoW91LJ4m5HwiHM9HCBjVHzxsMx4hmtDibXZiQK14ZqxWG3hbVlKsR7lcv-6rpGEiP-K8Ol5Bg';
 
 /**
  * Deployment identifier.
@@ -682,3 +682,16 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 # if (file_exists(__DIR__ . '/settings.local.php')) {
 #   include __DIR__ . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'fbpc2016',
+  'username' => 'drupal',
+  'password' => 'drupal',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'standard';
+$config_directories['active'] = 'sites/default/files/config_Ecj-a7vLok1c812nuc4FBHLF9bQYq5KpddOVSjhXEZMkrwMCHs4mUWaWFLDDR2Z7cviFIBmxPQ/active';
+$config_directories['staging'] = 'sites/default/files/config_Ecj-a7vLok1c812nuc4FBHLF9bQYq5KpddOVSjhXEZMkrwMCHs4mUWaWFLDDR2Z7cviFIBmxPQ/staging';
