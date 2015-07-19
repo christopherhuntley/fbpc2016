@@ -244,6 +244,7 @@ $databases = array();
  * @endcode
  */
 $config_directories = array();
+$config_directories['staging'] = 
 
 /**
  * Settings:
@@ -693,5 +694,5 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['active'] = 'sites/default/files/config_Ecj-a7vLok1c812nuc4FBHLF9bQYq5KpddOVSjhXEZMkrwMCHs4mUWaWFLDDR2Z7cviFIBmxPQ/active';
-$config_directories['staging'] = 'sites/default/files/config_Ecj-a7vLok1c812nuc4FBHLF9bQYq5KpddOVSjhXEZMkrwMCHs4mUWaWFLDDR2Z7cviFIBmxPQ/staging';
+$config_directories['active'] = '../config/active';
+$config_directories['staging'] = '../config/staging';

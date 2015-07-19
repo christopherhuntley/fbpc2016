@@ -1,0 +1,10 @@
+uuid: 8c3ee99a-4533-48fc-8b05-5c2fc4f660a3
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: 'Website feedback'
+recipients:
+  - chuntley@fairfield.edu
+reply: ''
+weight: 0

@@ -1,0 +1,12 @@
+uuid: f7a3fc5c-efdc-40bb-b308-8c1462c61bb4
+name: 'FBPC 2016'
+mail: chuntley@fairfield.edu
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

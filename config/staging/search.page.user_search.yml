@@ -1,0 +1,12 @@
+uuid: fee03685-24ba-4ff6-9417-23c4dce6761d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user_search
+label: Users
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }
