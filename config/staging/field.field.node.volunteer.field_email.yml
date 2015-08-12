@@ -1,0 +1,19 @@
+uuid: ae8b5d17-a1ef-4c9d-8600-b90a8ecdf807
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.volunteer
+id: node.volunteer.field_email
+field_name: field_email
+entity_type: node
+bundle: volunteer
+label: Email
+description: 'The email address, which might not be public. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

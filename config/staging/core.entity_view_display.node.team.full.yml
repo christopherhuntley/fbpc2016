@@ -1,0 +1,63 @@
+uuid: 8424296e-cee4-4870-8501-1a74d0931bc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.team.body
+    - field.field.node.team.field_logo
+    - field.field.node.team.field_team_photo
+    - field.field.node.team.field_team_tagline
+    - field.field.node.team.field_year
+    - node.type.team
+  module:
+    - image
+    - text
+    - user
+id: node.team.full
+targetEntityType: node
+bundle: team
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_logo:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_team_photo:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_team_tagline:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_year:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

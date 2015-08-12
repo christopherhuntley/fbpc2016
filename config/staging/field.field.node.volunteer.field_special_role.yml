@@ -1,0 +1,21 @@
+uuid: feaa3062-4a6e-406e-b115-2173a7b77cd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_special_role
+    - node.type.volunteer
+id: node.volunteer.field_special_role
+field_name: field_special_role
+entity_type: node
+bundle: volunteer
+label: 'Special Title'
+description: 'Reserve this field for organizers and other with special organizational roles.'
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

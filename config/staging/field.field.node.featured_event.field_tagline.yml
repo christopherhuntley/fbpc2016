@@ -1,0 +1,21 @@
+uuid: f978d812-7e81-4d17-a725-37667db0057e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tagline
+    - node.type.featured_event
+id: node.featured_event.field_tagline
+field_name: field_tagline
+entity_type: node
+bundle: featured_event
+label: Tagline
+description: 'A <em>very short</em> exhortation to participate in the event. It should say what the reader will do at/get from the event. '
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Show up. Win a prize.'
+default_value_callback: ''
+settings: {  }
+field_type: string

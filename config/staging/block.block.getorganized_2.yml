@@ -1,0 +1,26 @@
+uuid: 906942c9-81f0-4cb9-964e-7815d81111b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.organized
+  module:
+    - system
+  theme:
+    - stagupclassy
+id: getorganized_2
+theme: stagupclassy
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'system_menu_block:organized'
+settings:
+  id: 'system_menu_block:organized'
+  label: 'Get Organized'
+  provider: system
+  label_display: visible
+  cache:
+    max_age: -1
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 3a97b30f-9661-470e-893f-635c14cad222
+langcode: en
+status: true
+dependencies: {  }
+name: 'Primary Role'
+vid: primary_role
+description: 'Relationship to the Competition'
+hierarchy: 0
+weight: 0

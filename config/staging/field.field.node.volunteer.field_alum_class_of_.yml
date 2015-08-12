@@ -1,0 +1,23 @@
+uuid: b1d7fe40-1568-4be5-8100-bdfea554c172
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alum_class_of_
+    - node.type.volunteer
+id: node.volunteer.field_alum_class_of_
+field_name: field_alum_class_of_
+entity_type: node
+bundle: volunteer
+label: 'Alum, Class of ...'
+description: 'Only fill this out for alumni to indicate graduation year.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1960
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

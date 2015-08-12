@@ -1,0 +1,23 @@
+uuid: c693745f-067c-407e-b200-ef547fa09eb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hide_email_address_
+    - node.type.volunteer
+id: node.volunteer.field_hide_email_address_
+field_name: field_hide_email_address_
+entity_type: node
+bundle: volunteer
+label: 'Hide Email Address?'
+description: 'Check this if the email is supposed to private.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Hide Email Address'
+  off_label: Show
+field_type: boolean

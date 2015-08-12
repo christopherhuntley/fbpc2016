@@ -1,0 +1,13 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/bootstrap.min.css: {}
+      css/layout.css: {}
+      css/socicon.css: {}
+  js:
+    js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+    
+        

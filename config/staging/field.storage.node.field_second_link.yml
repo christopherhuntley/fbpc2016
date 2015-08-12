@@ -1,0 +1,18 @@
+uuid: 99211450-abf5-4370-8900-f20aba593db9
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_second_link
+field_name: field_second_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

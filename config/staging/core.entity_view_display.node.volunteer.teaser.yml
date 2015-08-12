@@ -1,0 +1,80 @@
+uuid: 7d212197-9f51-4cf9-9f08-8a9323c444e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.volunteer.field_alum_class_of_
+    - field.field.node.volunteer.field_email
+    - field.field.node.volunteer.field_first_name
+    - field.field.node.volunteer.field_headshot_photo
+    - field.field.node.volunteer.field_hide_email_address_
+    - field.field.node.volunteer.field_last_name
+    - field.field.node.volunteer.field_linkedin_profile
+    - field.field.node.volunteer.field_role
+    - field.field.node.volunteer.field_special_role
+    - field.field.node.volunteer.field_title_employer
+    - node.type.volunteer
+  module:
+    - image
+    - link
+    - user
+id: node.volunteer.teaser
+targetEntityType: node
+bundle: volunteer
+mode: teaser
+content:
+  field_email:
+    type: email_mailto
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_headshot_photo:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: headshot_photo
+      image_link: ''
+    third_party_settings: {  }
+  field_hide_email_address_:
+    type: boolean
+    weight: 3
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+  field_linkedin_profile:
+    type: link_separate
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  field_special_role:
+    type: string
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_title_employer:
+    type: string
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_alum_class_of_: true
+  field_first_name: true
+  field_last_name: true
+  field_role: true
+  links: true

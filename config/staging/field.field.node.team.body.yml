@@ -1,0 +1,22 @@
+uuid: b580fbfa-adb4-4344-9148-724ca7e02512
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.team
+  module:
+    - text
+id: node.team.body
+field_name: body
+entity_type: node
+bundle: team
+label: Overview
+description: 'A one paragraph description of the business concept. This might be adapted from the start of the investor pitch.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

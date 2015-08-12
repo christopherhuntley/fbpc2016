@@ -1,0 +1,26 @@
+uuid: 3e459b23-22fc-4eb0-9a3b-59a14ef0ccb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - classy
+id: mainnavigation
+theme: classy
+region: primary_menu
+weight: -1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+  level: 1
+  depth: 0
+visibility: {  }

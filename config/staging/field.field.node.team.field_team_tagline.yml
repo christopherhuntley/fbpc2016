@@ -1,0 +1,21 @@
+uuid: 9e0870d1-b5cc-487a-ac07-7fae112b2b4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_tagline
+    - node.type.team
+id: node.team.field_team_tagline
+field_name: field_team_tagline
+entity_type: node
+bundle: team
+label: Tagline
+description: 'A <em>very short</em>, pithy phrase that explains the value proposition. '
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

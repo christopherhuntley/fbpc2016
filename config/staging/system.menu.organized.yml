@@ -1,0 +1,8 @@
+uuid: 2fcdddde-17c8-4607-9500-fc653f2473e5
+langcode: en
+status: true
+dependencies: {  }
+id: organized
+label: 'Get Organized'
+description: 'Links for Active Competitors'
+locked: false

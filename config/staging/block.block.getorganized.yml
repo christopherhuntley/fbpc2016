@@ -1,0 +1,26 @@
+uuid: 16da239a-1542-4848-834c-76a71e6659bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.organized
+  module:
+    - system
+  theme:
+    - stark
+id: getorganized
+theme: stark
+region: sidebar_first
+weight: -3
+provider: null
+plugin: 'system_menu_block:organized'
+settings:
+  id: 'system_menu_block:organized'
+  label: 'Get Organized'
+  provider: system
+  label_display: visible
+  cache:
+    max_age: -1
+  level: 1
+  depth: 0
+visibility: {  }

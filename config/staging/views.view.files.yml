@@ -718,9 +718,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'url.query_args.pagers:0'
-        - 'url.query_args:order'
-        - 'url.query_args:sort'
+        - url.query_args
         - user.permissions
       cacheable: false
   page_1:
@@ -756,9 +754,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - url
-        - 'url.query_args.pagers:0'
-        - 'url.query_args:order'
-        - 'url.query_args:sort'
+        - url.query_args
         - user.permissions
       cacheable: false
   page_2:
@@ -1114,8 +1110,6 @@ display:
       contexts:
         - 'languages:language_interface'
         - url
-        - 'url.query_args.pagers:0'
-        - 'url.query_args:order'
-        - 'url.query_args:sort'
+        - url.query_args
         - user.permissions
       cacheable: false

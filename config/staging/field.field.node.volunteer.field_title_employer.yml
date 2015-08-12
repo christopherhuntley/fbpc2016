@@ -1,0 +1,21 @@
+uuid: 8b9c75f4-8399-4549-9400-be42962fd930
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title_employer
+    - node.type.volunteer
+id: node.volunteer.field_title_employer
+field_name: field_title_employer
+entity_type: node
+bundle: volunteer
+label: Title/Employer
+description: 'The current position and employer. If it''s a faculty member, then please use "XXX Professor" instead of "Professor of XXX". This way we can ignore rank entirely. '
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Position Title, Employer'
+default_value_callback: ''
+settings: {  }
+field_type: string

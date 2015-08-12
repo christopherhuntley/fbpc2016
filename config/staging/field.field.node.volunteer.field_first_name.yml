@@ -1,0 +1,21 @@
+uuid: 55abada3-5cee-46d6-8708-8b643cbe1653
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first_name
+    - node.type.volunteer
+id: node.volunteer.field_first_name
+field_name: field_first_name
+entity_type: node
+bundle: volunteer
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

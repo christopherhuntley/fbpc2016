@@ -1,0 +1,5 @@
+# Schema for the configuration files of the StagUp Classy theme.
+
+stagupclassy.settings:
+  type: theme_settings
+  label: 'StagUp Classy settings'

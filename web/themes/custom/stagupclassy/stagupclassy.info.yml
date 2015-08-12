@@ -1,0 +1,23 @@
+name: StagUp Classy
+type: theme
+description: A subtheme of the core Classy theme
+package: Custom
+core: 8.x
+# Defines the base theme
+base theme: classy
+# Defines libraries group in which we can add css/js.
+screenshot:
+  - stagup.png
+libraries:
+  - stagupclassy/global-styling
+  - stagupclassy/bootstrap
+stylesheets-remove:
+  - '@classy/css/layout.css'
+# Regions
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer

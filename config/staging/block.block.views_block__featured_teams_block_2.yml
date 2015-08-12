@@ -1,0 +1,32 @@
+uuid: 432f3892-ebca-4197-8f14-20a2c91df7b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_teams
+  module:
+    - system
+    - views
+  theme:
+    - stagupclassy
+id: views_block__featured_teams_block_2
+theme: stagupclassy
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:featured_teams-block_2'
+settings:
+  id: 'views_block:featured_teams-block_2'
+  label: 'Last Year''s Finalists'
+  provider: views
+  label_display: visible
+  cache:
+    max_age: -1
+  views_label: 'Last Year''s Finalists'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

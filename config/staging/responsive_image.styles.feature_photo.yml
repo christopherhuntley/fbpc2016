@@ -1,0 +1,28 @@
+uuid: 316a92b8-270f-4bee-bf54-848fc7200420
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.huge
+  theme:
+    - bartik
+id: feature_photo
+label: 'Feature Photo'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: huge
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: huge
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: huge
+breakpoint_group: bartik
+fallback_image_style: huge

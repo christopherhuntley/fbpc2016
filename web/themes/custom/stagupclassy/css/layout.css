@@ -1,0 +1,228 @@
+/*---- Global Styling */
+body {
+    font-size: 16px;
+}
+
+.media {
+    padding:1em;
+}
+
+.panel-title {
+    font-size: 1.2em;
+}
+
+.thumbnail .caption {
+    font-size:0.8em;
+}
+
+/*---- Layout Bugfixes ---*/
+
+/* hide messages until we know what to do with them */
+.messages {
+    display:none;
+}
+
+
+/* fix for overlapping toolbars for admin users */
+body.toolbar-fixed .navbar-fixed-top { top: 75px !important; }
+
+/* fix to remove height and width on responsive images; set max-width to 100% */
+.img-responsive img {
+    max-width:100% !important;
+    width:100%;
+    vertical-align:middle;
+}
+.img-responsive img[width] {
+    width: 100% !important;
+}
+.img-responsive img[height] {
+    height: auto !important;
+}
+
+/* fix conflicts between nabvar and default Drupal menu styling */
+.navbar .menu-item {
+    padding-top:0;
+}
+
+/* fix overlap between navbar and page content */
+.region-featured {
+    margin-top: 50px;
+}
+.main-content {
+    margin-top:64px;
+    margin: 64px 5px 0;
+}
+
+/*--- Block Styling --*/
+.panel-default .panel-heading {
+    background-color: #333;
+    color: #eee;
+}
+
+/* ---- Featured Event Styling ----*/
+
+article.node--type-featured-event {
+    position:relative;
+}
+
+#feature-text-container {
+    position: absolute;
+    top:1em;
+    left:0;
+    width: 100%;
+    padding:1%;
+}
+
+#feature-text-container h1, .featured-events-bottom h2 {
+    color: darkred;
+    font-size: 1.8em;
+    margin: 0 0 0.2em;
+}
+
+#feature-text-container h2, .featured-events-bottom h3 {
+    font-size: 1.3em;
+    margin: 0.2em 0;
+}
+
+#feature-text-container h3 {
+    font-size: 1.2em;
+    margin: 0.4em 0;
+    font-weight: bold;
+}
+
+#feature-text-container .row {
+    margin: 0 0.1em;
+}
+
+#feature-text-container .panel {
+    background-color: rgba(100%,100%,100%,0.9);
+    padding: 1em;
+}
+
+.featured-events-top {
+    margin-top:20px;
+    position: relative; 
+}
+
+.featured-events-bottom {
+    padding:2em 0;
+}
+
+.featured-events-bottom .views-row {
+    padding: 0 2em;
+}
+
+.featured-events-bottom h2 {
+    font-size: 1.5em;
+}
+.featured-events-bottom h3 {
+    font-size: 1.2em;
+}
+
+#feature-text-container .field-node--field-tagline {
+    padding-top: 0.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color:darkred;
+}
+
+#feature-text-container .field-node--field-description {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #444;
+}
+
+
+/*---- Team Styling ----*/
+h3.media-heading {
+    font-size:1.1em;
+}
+
+/*---- Volunteer Profile Styling ----*/
+
+.thumbnail .headshot {
+    position:relative;
+}
+
+.thumbnail .headshot p {
+    position:absolute;
+    bottom:2px;
+    right:2px;
+    background-color: rgba(100%,100%,100%, 0.9);
+    padding:5px;
+}
+
+.thumbnail .socicon {
+    font-size: 24px;
+}
+
+
+.view-mentors-and-advisors .thumbnail {
+    min-height: 320px;
+}
+
+
+
+/*---- Media Queries for tweaks at common breakpoints ----*/
+@media (min-width: 1200px) {
+    
+}
+
+@media (max-width: 960px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .view-mentors-and-advisors .thumbnail {
+        min-height: 300px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 12px;
+    }
+    
+    #feature-text-container {
+        top: 1em;
+    }
+    
+    .thumbnail .caption {
+        font-size:1em;
+    }
+    .view-mentors-and-advisors .thumbnail {
+        min-height: 390px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 11px;
+    }
+    
+    #feature-text-container {
+        top: 2px;
+    }
+    
+    .main-content {
+        margin: 64px 0 0;
+    }
+    
+    .thumbnail .caption {
+        font-size:1em;
+    }
+    
+    .view-mentors-and-advisors .thumbnail {
+        min-height: 260px;
+    }
+
+}
+
+
+
+
+
+
+

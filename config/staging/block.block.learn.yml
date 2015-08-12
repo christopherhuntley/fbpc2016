@@ -1,0 +1,26 @@
+uuid: df407655-867c-4f29-8217-23f3baf5ccf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.learn
+  module:
+    - system
+  theme:
+    - stagupclassy
+id: learn
+theme: stagupclassy
+region: sidebar_first
+weight: -3
+provider: null
+plugin: 'system_menu_block:learn'
+settings:
+  id: 'system_menu_block:learn'
+  label: Learn
+  provider: system
+  label_display: visible
+  cache:
+    max_age: -1
+  level: 1
+  depth: 0
+visibility: {  }

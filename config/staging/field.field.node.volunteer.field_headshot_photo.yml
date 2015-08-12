@@ -1,0 +1,38 @@
+uuid: 0abcc5cd-aadf-4f21-8a03-037c0f2cda6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headshot_photo
+    - node.type.volunteer
+  module:
+    - image
+id: node.volunteer.field_headshot_photo
+field_name: field_headshot_photo
+entity_type: node
+bundle: volunteer
+label: 'Headshot Photo'
+description: 'Bigger is better; small images may be resized and become blurry.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: headshots
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: 120x120
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: 'No Photo Provided'
+    title: ''
+    width: null
+    height: null
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: image

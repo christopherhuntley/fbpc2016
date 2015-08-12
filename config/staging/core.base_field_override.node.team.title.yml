@@ -1,0 +1,20 @@
+uuid: 553a3e41-3fab-4dce-9a12-18c8a4dccc74
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team.title
+field_name: title
+entity_type: node
+bundle: team
+label: 'Company Name'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

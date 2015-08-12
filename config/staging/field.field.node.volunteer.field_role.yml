@@ -1,0 +1,32 @@
+uuid: 34708340-23db-423d-8210-1643ca13c79a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_role
+    - node.type.volunteer
+  content:
+    - 'taxonomy_term:primary_role:eaee3db8-6342-4b83-8f04-4a236790f4ee'
+  module:
+    - entity_reference
+id: node.volunteer.field_role
+field_name: field_role
+entity_type: node
+bundle: volunteer
+label: 'Primary Role'
+description: 'Relationship to the competition. Active volunteers will appear in the corresponding region on the front page. Guests may be profiled on event pages. '
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: eaee3db8-6342-4b83-8f04-4a236790f4ee
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      primary_role: primary_role
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

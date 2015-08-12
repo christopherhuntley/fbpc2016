@@ -1,0 +1,107 @@
+uuid: 0066c0db-82e7-4c23-ab00-bd3abd7b3043
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.volunteer.field_alum_class_of_
+    - field.field.node.volunteer.field_email
+    - field.field.node.volunteer.field_first_name
+    - field.field.node.volunteer.field_headshot_photo
+    - field.field.node.volunteer.field_hide_email_address_
+    - field.field.node.volunteer.field_last_name
+    - field.field.node.volunteer.field_linkedin_profile
+    - field.field.node.volunteer.field_role
+    - field.field.node.volunteer.field_special_role
+    - field.field.node.volunteer.field_title_employer
+    - node.type.volunteer
+  module:
+    - image
+    - link
+    - user
+id: node.volunteer.default
+targetEntityType: node
+bundle: volunteer
+mode: default
+content:
+  field_alum_class_of_:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_email:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_first_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_headshot_photo:
+    weight: 5
+    label: above
+    settings:
+      image_style: headshot_photo
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_hide_email_address_:
+    weight: 7
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_last_name:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_linkedin_profile:
+    weight: 8
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link_separate
+  field_role:
+    weight: 9
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_special_role:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_title_employer:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

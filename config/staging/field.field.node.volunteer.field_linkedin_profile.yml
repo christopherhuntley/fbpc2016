@@ -1,0 +1,23 @@
+uuid: fe801609-aab5-456c-a800-c700f68bcd97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_linkedin_profile
+    - node.type.volunteer
+  module:
+    - link
+id: node.volunteer.field_linkedin_profile
+field_name: field_linkedin_profile
+entity_type: node
+bundle: volunteer
+label: 'LinkedIn Profile'
+description: 'The person''s public LinkedIn profile url. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

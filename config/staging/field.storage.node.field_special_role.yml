@@ -1,0 +1,20 @@
+uuid: cdd3ae2e-1bea-4082-8f00-a75718592175
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_special_role
+field_name: field_special_role
+entity_type: node
+type: string
+settings:
+  max_length: 30
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

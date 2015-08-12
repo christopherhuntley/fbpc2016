@@ -1,0 +1,23 @@
+uuid: 701347fc-dcb2-4f0a-a05c-925de79b88d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_second_link
+    - node.type.featured_event
+  module:
+    - link
+id: node.featured_event.field_second_link
+field_name: field_second_link
+entity_type: node
+bundle: featured_event
+label: 'Second Link'
+description: 'Link to a video or other media that either promote or recap the event.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

@@ -1,0 +1,38 @@
+uuid: f057559c-ed59-4a80-b105-5e4b50e04bb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_logo
+    - node.type.team
+  module:
+    - image
+id: node.team.field_logo
+field_name: field_logo
+entity_type: node
+bundle: team
+label: Logo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 200x200
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: 'Logo Image'
+    title: 'Company Logo'
+    width: null
+    height: null
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: image

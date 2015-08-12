@@ -1,0 +1,22 @@
+uuid: 8f7033de-96dd-4853-9300-f4239b40034a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stark
+id: poweredbydrupal
+theme: stark
+region: footer
+weight: -1
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: visible
+  cache:
+    max_age: -1
+visibility: {  }

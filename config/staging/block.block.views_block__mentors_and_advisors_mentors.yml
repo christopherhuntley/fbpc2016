@@ -1,0 +1,32 @@
+uuid: 979de849-c324-4751-930c-127ef48c2959
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mentors_and_advisors
+  module:
+    - system
+    - views
+  theme:
+    - stagupclassy
+id: views_block__mentors_and_advisors_mentors
+theme: stagupclassy
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:mentors_and_advisors-mentors'
+settings:
+  id: 'views_block:mentors_and_advisors-mentors'
+  label: ''
+  provider: views
+  label_display: visible
+  cache:
+    max_age: -1
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

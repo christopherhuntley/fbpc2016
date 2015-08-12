@@ -1,0 +1,21 @@
+uuid: fe4acfd3-22f1-4fdb-ad58-88158575722b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.featured_event
+id: node.featured_event.field_description
+field_name: field_description
+entity_type: node
+bundle: featured_event
+label: Description
+description: 'This should be a <strong>short paragraph<strong> with no links or other formatting. Avoid including agenda items or other content that belongs on the Google site. '
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string_long

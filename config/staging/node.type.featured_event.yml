@@ -1,0 +1,18 @@
+uuid: 4343349e-fbe0-4ce4-8b00-dd5dd80b2af8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Featured Event'
+type: featured_event
+description: 'An event that may appear on the front page. Use the publishing options to control which events appear. Choose to "promote to the front page" to feature it on the front page. Choose "sticky at top of lists" to make it appear at the top of the page. If multiple events are "sticky" then the latest event on the calendar wins. '
+help: 'Featured Events appear at the top of the front page, with the next ''active event'' highlighted at the very top. Do not use this to manage the competition calendar shared with competitors and mentors. That should happen in the Google Classroom site. '
+new_revision: true
+preview_mode: 1
+display_submitted: false
