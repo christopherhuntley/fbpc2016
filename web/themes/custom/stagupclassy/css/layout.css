@@ -1,6 +1,9 @@
 /*---- Global Styling */
 body {
     font-size: 16px;
+    position:relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .media {
@@ -13,6 +16,12 @@ body {
 
 .thumbnail .caption {
     font-size:0.8em;
+}
+
+.block-centered {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 
 /*---- Layout Bugfixes ---*/
@@ -159,6 +168,59 @@ h3.media-heading {
 
 .view-mentors-and-advisors .thumbnail {
     min-height: 320px;
+}
+
+/*---- Sponsor Panel Styling ----*/
+.sponsors-logo {
+    padding: 10px;
+    width:220px;
+    height:100px;
+    float:left;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+
+/*---- Footer Styling ----*/
+.region-footer {
+    position:relative;
+    background-color: #2f2f2f;
+    padding: 30px;
+    margin-top:20px;
+}
+
+.region-footer .panel {
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#block-fairfieldshield .panel-default {
+    background-color:transparent;
+    border: none;
+    padding:0;
+    width: 200px;
+}
+
+#block-fairfieldshield .panel-body {
+    padding:0;
+    margin:0;
+}
+
+
+.block-social-media-links .panel-default {
+    background-color: #eee;
+    width: 200px;
+}
+
+.block-social-media-links .panel-heading {
+    background-color: transparent;
+    color: #333; 
+    text-align:center;
+}
+
+.block-social-media-links .panel-body {
+    padding-left:27px;
+    padding-right:27px;
 }
 
 

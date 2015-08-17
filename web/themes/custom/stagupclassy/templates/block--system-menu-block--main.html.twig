@@ -40,6 +40,7 @@
 #}
 {%
   set classes = [
+    'nav',
     'navbar',
     'navbar-inverse',
     'navbar-default',
@@ -51,6 +52,7 @@
   ]
 %}
 {% set heading_id = attributes.id ~ '-menu'|clean_id %}
+<div id="main-navbar">
 <nav role="navigation" aria-labelledby="{{ heading_id }}"{{ attributes.addClass(classes)|without('role', 'aria-labelledby') }}>
   <div class="navbar-header">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
@@ -67,3 +69,4 @@
     {{ content }}
   {% endblock %}
 </nav>
+</div>
