@@ -1,0 +1,27 @@
+uuid: a21049d4-9f49-4e8e-ad00-b24ca2f73457
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:93400ebe-4dbd-40dc-b700-ca453043d96a'
+  module:
+    - block_content
+  theme:
+    - stagupclassy
+id: fairfieldshield
+theme: stagupclassy
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:93400ebe-4dbd-40dc-b700-ca453043d96a'
+settings:
+  id: 'block_content:93400ebe-4dbd-40dc-b700-ca453043d96a'
+  label: 'Fairfield Shield'
+  provider: block_content
+  label_display: '0'
+  cache:
+    max_age: -1
+  status: true
+  info: ''
+  view_mode: default
+visibility: {  }

@@ -1,4 +1,5 @@
 module:
+  backup_migrate: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -32,6 +33,7 @@ module:
   responsive_image: 0
   search: 0
   shortcut: 0
+  social_media_links: 0
   system: 0
   taxonomy: 0
   text: 0

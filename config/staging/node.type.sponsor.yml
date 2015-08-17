@@ -1,0 +1,18 @@
+uuid: 7d0cad2e-7a4e-49d3-b451-811ead65d44b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Sponsor
+type: sponsor
+description: 'Sponsor logos are listed on the front page. '
+help: 'Sponsors are companies that donate either cash or services. Private cash donations from individuals are acknowledged elsewhere. An individual who donates time/services should be listed as an Advisor.'
+new_revision: false
+preview_mode: 1
+display_submitted: false

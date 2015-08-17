@@ -1,28 +1,28 @@
-uuid: 979de849-c324-4751-930c-127ef48c2959
+uuid: 73f52d12-c8d9-4b9a-b704-4ed9aaa28534
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.mentors_and_advisors
+    - views.view.sponsors
   module:
     - system
     - views
   theme:
     - stagupclassy
-id: views_block__mentors_and_advisors_mentors
+id: sponsors_panel
 theme: stagupclassy
 region: content
 weight: -4
 provider: null
-plugin: 'views_block:mentors_and_advisors-mentors'
+plugin: 'views_block:sponsors-block_1'
 settings:
-  id: 'views_block:mentors_and_advisors-mentors'
-  label: ''
+  id: 'views_block:sponsors-block_1'
+  label: Sponsors
   provider: views
   label_display: visible
   cache:
     max_age: -1
-  views_label: ''
+  views_label: Sponsors
   items_per_page: none
 visibility:
   request_path:

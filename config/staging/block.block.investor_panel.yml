@@ -1,0 +1,32 @@
+uuid: f58673e5-2f6d-4bff-bf06-06fa6b909a65
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mentors_and_advisors
+  module:
+    - system
+    - views
+  theme:
+    - stagupclassy
+id: investor_panel
+theme: stagupclassy
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:mentors_and_advisors-investors'
+settings:
+  id: 'views_block:mentors_and_advisors-investors'
+  label: 'Investor Panel'
+  provider: views
+  label_display: visible
+  cache:
+    max_age: -1
+  views_label: 'Investor Panel'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

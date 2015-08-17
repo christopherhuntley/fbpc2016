@@ -1,0 +1,32 @@
+uuid: d27ebefa-5af6-4215-bb15-21bf4449b49d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mentors_and_advisors
+  module:
+    - system
+    - views
+  theme:
+    - stagupclassy
+id: join_our_team_panel
+theme: stagupclassy
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:mentors_and_advisors-organizers'
+settings:
+  id: 'views_block:mentors_and_advisors-organizers'
+  label: 'Join Our Team'
+  provider: views
+  label_display: visible
+  cache:
+    max_age: -1
+  views_label: 'Join Our Team'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

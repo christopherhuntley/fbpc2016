@@ -1,28 +1,28 @@
-uuid: 432f3892-ebca-4197-8f14-20a2c91df7b6
+uuid: 42abbfd5-55bb-4bbf-9600-f668ee4626fd
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.featured_teams
+    - views.view.mentors_and_advisors
   module:
     - system
     - views
   theme:
     - stagupclassy
-id: views_block__featured_teams_block_2
+id: mentor_panel
 theme: stagupclassy
 region: content
-weight: -4
+weight: -6
 provider: null
-plugin: 'views_block:featured_teams-block_2'
+plugin: 'views_block:mentors_and_advisors-mentors'
 settings:
-  id: 'views_block:featured_teams-block_2'
-  label: 'Last Year''s Finalists'
+  id: 'views_block:mentors_and_advisors-mentors'
+  label: ''
   provider: views
   label_display: visible
   cache:
     max_age: -1
-  views_label: 'Last Year''s Finalists'
+  views_label: ''
   items_per_page: none
 visibility:
   request_path:
