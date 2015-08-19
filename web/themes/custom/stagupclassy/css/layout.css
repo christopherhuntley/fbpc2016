@@ -166,8 +166,10 @@ h3.media-heading {
 }
 
 
-.view-mentors-and-advisors .thumbnail {
-    min-height: 320px;
+.view-mentors-and-advisors .thumbnail .caption {
+    /* min-height: 120px; */
+    min-height: 11em; 
+
 }
 
 /*---- Sponsor Panel Styling ----*/
@@ -235,10 +237,6 @@ h3.media-heading {
         font-size: 14px;
     }
     
-    .view-mentors-and-advisors .thumbnail {
-        min-height: 300px;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -254,9 +252,11 @@ h3.media-heading {
     .thumbnail .caption {
         font-size:1em;
     }
+    /*
     .view-mentors-and-advisors .thumbnail {
         min-height: 390px;
     }
+    */
 }
 
 @media (max-width: 400px) {
@@ -276,10 +276,7 @@ h3.media-heading {
         font-size:1em;
     }
     
-    .view-mentors-and-advisors .thumbnail {
-        min-height: 260px;
-    }
-
+    
 }
 
 
