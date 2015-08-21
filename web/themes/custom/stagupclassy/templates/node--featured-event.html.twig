@@ -15,11 +15,14 @@
                             <caption>{{ content.field_tagline }} </caption>
                             {{ content.field_description }}
                         </div>
-                        
                         {% if content.field_first_link['#items'][0].uri %} 
                             <a class="btn btn-block btn-lg btn-primary" href="{{ content.field_first_link['#items'][0].uri }}">
                                 {{ content.field_first_link['#items'][0].title }}
                             </a>
+                        {% else %}
+                            <div class="visible-xs">
+                                <caption>{{ content.field_tagline }} </caption>
+                            </div>
                         {% endif %}
                     </div>
                 </div>
