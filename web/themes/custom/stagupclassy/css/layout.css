@@ -90,6 +90,7 @@ body.toolbar-fixed .navbar-fixed-top { top: 75px !important; }
 
 #feature-panel {
     padding:1em;
+    min-height:24em;
 }
 
 .featured-events-top {
