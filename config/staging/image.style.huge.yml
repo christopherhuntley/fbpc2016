@@ -4,4 +4,9 @@ status: true
 dependencies: {  }
 name: huge
 label: Background
-effects: {  }
+effects:
+  9cdf08e1-c40c-4238-991e-30b909eb3bfd:
+    uuid: 9cdf08e1-c40c-4238-991e-30b909eb3bfd
+    id: image_desaturate
+    weight: 1
+    data: {  }

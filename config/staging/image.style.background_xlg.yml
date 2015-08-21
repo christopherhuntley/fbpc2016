@@ -1,0 +1,14 @@
+uuid: e39dc04d-d91a-4a33-9c00-d1456109126c
+langcode: en
+status: true
+dependencies: {  }
+name: background_xlg
+label: Background-xxlg
+effects:
+  62930221-0f5d-4a7c-b154-84dc8ecf5521:
+    uuid: 62930221-0f5d-4a7c-b154-84dc8ecf5521
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2400
+      height: 600

@@ -1,0 +1,14 @@
+uuid: addc7ac6-4544-4f93-ab00-aad281f28c20
+langcode: en
+status: true
+dependencies: {  }
+name: background_xs
+label: Background-xs-768w
+effects:
+  890752ff-d8a7-4136-8000-005e50079844:
+    uuid: 890752ff-d8a7-4136-8000-005e50079844
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 511

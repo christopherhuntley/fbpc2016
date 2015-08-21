@@ -1,0 +1,14 @@
+uuid: 755eb16b-3dfd-4b9c-ab4b-753deb8d9c3d
+langcode: en
+status: true
+dependencies: {  }
+name: background_xlg_2000w
+label: Background-xlg-2000w
+effects:
+  78b4dccc-efd4-4e2d-9a25-3734f22be7bc:
+    uuid: 78b4dccc-efd4-4e2d-9a25-3734f22be7bc
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 2000
+      height: 600

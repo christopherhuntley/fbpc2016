@@ -12,12 +12,12 @@ field_name: field_first_link
 entity_type: node
 bundle: featured_event
 label: 'First Link'
-description: 'Link to video, photo galleries, etc. that either promote or recap the event. The link will be displayed as a button on the front page.'
+description: 'Link to either the signup form (OrgSync) or the recap video (YouTube/Vimeo) for the event. The link will be displayed as a large button on the front page.'
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  link_type: 17
+  link_type: 16
   title: 2
 field_type: link

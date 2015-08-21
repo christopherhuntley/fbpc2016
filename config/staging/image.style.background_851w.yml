@@ -1,0 +1,14 @@
+uuid: a87f4abf-f6d2-4a0a-b009-9fe724e5ab4e
+langcode: en
+status: true
+dependencies: {  }
+name: background_851w
+label: Background-xxs-425w
+effects:
+  085d6fb7-2841-4733-a900-dcc44c4a6cce:
+    uuid: 085d6fb7-2841-4733-a900-dcc44c4a6cce
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 425
+      height: 283

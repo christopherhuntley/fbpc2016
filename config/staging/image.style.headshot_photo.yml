@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: headshot_photo
-label: 'Headshot Photo 200'
+label: 'Square 200'
 effects:
   6d8ee39e-e6d1-4210-ac00-cf11bbfb9160:
     uuid: 6d8ee39e-e6d1-4210-ac00-cf11bbfb9160

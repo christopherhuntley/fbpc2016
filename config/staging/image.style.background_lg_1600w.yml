@@ -1,0 +1,14 @@
+uuid: bf409648-a4ac-461f-8300-d4f0bdb7d174
+langcode: en
+status: true
+dependencies: {  }
+name: background_lg_1600w
+label: Background-lg-1600w
+effects:
+  85c3f034-247c-418d-b64a-742eb7c9fbc3:
+    uuid: 85c3f034-247c-418d-b64a-742eb7c9fbc3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 600

@@ -3,26 +3,47 @@ langcode: en
 status: true
 dependencies:
   config:
-    - image.style.huge
+    - image.style.background_851w
+    - image.style.background_lg_1600w
+    - image.style.background_md_1200w
+    - image.style.background_sm_992
+    - image.style.background_xlg
+    - image.style.background_xlg_2000w
+    - image.style.background_xs
   theme:
-    - bartik
+    - stagupclassy
 id: feature_photo
 label: 'Feature Photo'
 image_style_mappings:
   -
-    breakpoint_id: bartik.wide
+    breakpoint_id: stagupclassy.xlg
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: huge
+    image_mapping: background_xlg_2000w
   -
-    breakpoint_id: bartik.narrow
+    breakpoint_id: stagupclassy.lg
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: huge
+    image_mapping: background_lg_1600w
   -
-    breakpoint_id: bartik.mobile
+    breakpoint_id: stagupclassy.md
     multiplier: 1x
     image_mapping_type: image_style
-    image_mapping: huge
-breakpoint_group: bartik
-fallback_image_style: huge
+    image_mapping: background_md_1200w
+  -
+    breakpoint_id: stagupclassy.sm
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: background_sm_992
+  -
+    breakpoint_id: stagupclassy.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: background_xs
+  -
+    breakpoint_id: stagupclassy.xxs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: background_851w
+breakpoint_group: stagupclassy
+fallback_image_style: background_xlg

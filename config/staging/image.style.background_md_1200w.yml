@@ -1,0 +1,14 @@
+uuid: d4d40e60-af73-4498-ab07-7da6e33560a6
+langcode: en
+status: true
+dependencies: {  }
+name: background_md_1200w
+label: Background-md-1200w
+effects:
+  dbe41d2b-aad6-493d-a221-337301c92c3f:
+    uuid: dbe41d2b-aad6-493d-a221-337301c92c3f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 600

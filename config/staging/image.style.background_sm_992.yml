@@ -1,0 +1,14 @@
+uuid: ccaad654-cec0-44d2-874f-79b9dd50517c
+langcode: en
+status: true
+dependencies: {  }
+name: background_sm_992
+label: Background-sm-992w
+effects:
+  365c4acb-1050-4067-a406-6fd0fb77502f:
+    uuid: 365c4acb-1050-4067-a406-6fd0fb77502f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 992
+      height: 550

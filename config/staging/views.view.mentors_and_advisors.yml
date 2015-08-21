@@ -62,7 +62,7 @@ display:
       style:
         type: default
         options:
-          row_class: 'col-xs-6 col-sm-3 col-lg-2'
+          row_class: 'col-xs-6 col-sm-3'
           default_row_class: false
           uses_fields: false
       row:
@@ -313,7 +313,7 @@ display:
       style:
         type: default
         options:
-          row_class: 'col-xs-6 col-sm-3 col-lg-2'
+          row_class: 'col-xs-6 col-sm-3'
           default_row_class: false
           uses_fields: false
       row:
@@ -436,7 +436,7 @@ display:
       style:
         type: default
         options:
-          row_class: 'col-xs-6 col-sm-3 col-lg-2'
+          row_class: 'col-xs-6 col-sm-3'
           default_row_class: false
           uses_fields: false
       row:
