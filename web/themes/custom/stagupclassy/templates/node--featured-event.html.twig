@@ -11,11 +11,22 @@
                         <h1> {{ label }} </h1>
                         <h2> {{ content.field_date_time }} </h2>
                         <h2> {{ content.field_location }} </h2>
-                        <caption>{{ content.field_tagline }} </caption>
-                        <div class="hidden-xs">{{ content.field_description }}</div>
+                        <div class="hidden-xs">
+                            <caption>{{ content.field_tagline }} </caption>
+                            {{ content.field_description }}
+                        </div>
+                        
+                        {% if content.field_first_link['#items'][0].uri %} 
+                            <a class="btn btn-block btn-lg btn-primary" href="{{ content.field_first_link['#items'][0].uri }}">
+                                {{ content.field_first_link['#items'][0].title }}
+                            </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
+            
+            
+            
         </div>
 
 

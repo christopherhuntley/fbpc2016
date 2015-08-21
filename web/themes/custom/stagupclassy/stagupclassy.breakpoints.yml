@@ -1,0 +1,36 @@
+stagupclassy.xxs:
+  label: phone-portrait
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+stagupclassy.xs:
+  label: phone-landscape
+  mediaQuery: 'all and (min-width: 425px) and (max-width: 767px)'
+  weight: 1
+  multipliers:
+    - 1x
+stagupclassy.sm:
+  label: tablet-portrait
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 991px)'
+  weight: 2
+  multipliers:
+    - 1x
+stagupclassy.md:
+  label: tablet-landscape
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
+  weight: 3
+  multipliers:
+    - 1x
+stagupclassy.lg:
+  label: laptop
+  mediaQuery: 'all and (min-width: 1200px) and (max-width: 1599px)'
+  weight: 4
+  multipliers:
+    - 1x
+stagupclassy.xlg:
+  label: desktop
+  mediaQuery: 'all and (min-width: 1600px)'
+  weight: 5
+  multipliers:
+    - 1x
