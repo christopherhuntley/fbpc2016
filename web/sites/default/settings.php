@@ -244,7 +244,6 @@ $databases = array();
  * @endcode
  */
 $config_directories = array();
-$config_directories['staging'] = 
 
 /**
  * Settings:
@@ -285,7 +284,7 @@ $config_directories['staging'] =
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'aoW91LJ4m5HwiHM9HCBjVHzxsMx4hmtDibXZiQK14ZqxWG3hbVlKsR7lcv-6rpGEiP-K8Ol5Bg';
+$settings['hash_salt'] = 'IwlfuaDfbJqJdTq9dG-2cDDuWwIEgkCYraOu9w3-rmqKhzJF1QSpzWC8FqvzD3MuCCyxX96dHg';
 
 /**
  * Deployment identifier.

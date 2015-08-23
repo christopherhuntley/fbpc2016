@@ -1,0 +1,33 @@
+uuid: fde9897d-4598-44d3-8a03-3e8e541ca75a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:217988ad-e8be-4f1f-800c-1269c86f80f8'
+  module:
+    - block_content
+    - system
+  theme:
+    - stagupclassy
+id: twittertimeline
+theme: stagupclassy
+region: sidebar_first
+weight: -4
+provider: null
+plugin: 'block_content:217988ad-e8be-4f1f-800c-1269c86f80f8'
+settings:
+  id: 'block_content:217988ad-e8be-4f1f-800c-1269c86f80f8'
+  label: 'The Latest'
+  provider: block_content
+  label_display: visible
+  cache:
+    max_age: -1
+  status: true
+  info: ''
+  view_mode: default
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
