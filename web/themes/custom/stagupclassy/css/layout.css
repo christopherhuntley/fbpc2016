@@ -82,6 +82,10 @@ body.toolbar-fixed .navbar-fixed-top { top: 75px !important; }
     color: #eee;
 }
 
+.block-menu .panel-body {
+    padding: 0.5em 0;
+}
+
 /* ---- Featured Event Styling ----*/
 .region-featured {
     /* margin-top:50px; */

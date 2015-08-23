@@ -1,9 +1,9 @@
-uuid: fde9897d-4598-44d3-8a03-3e8e541ca75a
+uuid: 34859fa8-f024-45a6-ae40-64ddfb1daad3
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:217988ad-e8be-4f1f-800c-1269c86f80f8'
+    - 'block_content:basic:7b032a25-89d3-4750-9705-5bdb7264955f'
   module:
     - block_content
     - system
@@ -14,9 +14,9 @@ theme: stagupclassy
 region: sidebar_first
 weight: -4
 provider: null
-plugin: 'block_content:217988ad-e8be-4f1f-800c-1269c86f80f8'
+plugin: 'block_content:7b032a25-89d3-4750-9705-5bdb7264955f'
 settings:
-  id: 'block_content:217988ad-e8be-4f1f-800c-1269c86f80f8'
+  id: 'block_content:7b032a25-89d3-4750-9705-5bdb7264955f'
   label: 'The Latest'
   provider: block_content
   label_display: visible
