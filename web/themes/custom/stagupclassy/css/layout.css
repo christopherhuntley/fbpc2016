@@ -240,6 +240,15 @@ h3.media-heading {
     vertical-align:middle;
 }
 
+/*---- Twitter Styling ----*/
+#block-twittertimeline .panel-body {
+    padding:0;
+}
+
+#block-twittertimeline .panel-body p {
+    margin:0
+}
+
 
 /*---- Footer Styling ----*/
 .region-footer {
