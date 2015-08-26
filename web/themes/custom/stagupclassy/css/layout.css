@@ -252,10 +252,6 @@ h3.media-heading {
 }
 
 /*---- Twitter Styling ----*/
-#block-twittertimeline .panel {
-    border:0;
-}
-
 #block-twittertimeline .panel-body {
     padding:0;
 }
