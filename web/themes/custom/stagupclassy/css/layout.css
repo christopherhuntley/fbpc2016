@@ -25,6 +25,11 @@ body {
     display:block;
 }
 
+/*---- Page Header/Branding ----*/
+.navbar-brand {
+    padding: 6px 15px;
+}
+
 .navbar-inverse .navbar-brand {
     /* color: hsl(350, 85%, 42%); */
     color:white;
@@ -75,6 +80,8 @@ body.toolbar-fixed .navbar-fixed-top { top: 75px !important; }
     margin-top:64px;
     margin: 64px 5px 0;
 }
+
+
 
 /*--- Block Styling --*/
 .panel-default .panel-heading {
