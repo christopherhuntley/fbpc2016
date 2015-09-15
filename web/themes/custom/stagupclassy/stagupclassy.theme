@@ -9,5 +9,11 @@
  * Implements hook_preprocess_HOOK() for block templates.
  */
 function stagupclassy_preprocess_block(&$variables) {
-  $variables['logopath'] = base_path() . '/' . drupal_get_path('theme','stagupclassy') . '/FairfieldStagUp.png';
+  $variables['basepath'] = base_path();
+  $logopath = '/' . 
+              drupal_get_path('theme','stagupclassy') . 
+              '/FairfieldStagUp.png';
+  if (base_path() != "/") 
+    $logopath = base_path() . $logopath;
+  $variables['logopath'] = $logopath ;
 }
