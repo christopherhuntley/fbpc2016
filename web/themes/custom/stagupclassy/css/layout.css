@@ -241,6 +241,10 @@ h3.media-heading {
 
 }
 
+.special-title {
+    color:crimson;
+}
+
 /*---- Sponsor Panel Styling ----*/
 .sponsors-logo {
     padding: 10px;

@@ -81,7 +81,7 @@
 
 
   <div class="thumbnail">
-      
+    
     <div class="headshot img-responsive" >
         <a data-toggle="collapse" href="#{{ node.id|raw }}">{{ content.field_headshot_photo }}</a>
         <p class="collapse" id="{{ node.id|raw }}">
@@ -94,8 +94,11 @@
         </p>
     </div>
     <div class="caption">
-      <p> {{ label }} </p>
-      <p> {{ content.field_title_employer}} </p>
-      
+    {% if content.field_special_role %}
+      <div class="special-title"> {{ content.field_special_role }} </div>
+    {% endif %}
+      {{ label }}
+      {{ content.field_title_employer}}
+    
     </div>
   </div>
