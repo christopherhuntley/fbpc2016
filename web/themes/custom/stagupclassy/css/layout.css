@@ -238,17 +238,22 @@ h3.media-heading {
 .view-mentors-and-advisors .thumbnail .caption {
     /* min-height: 120px; */
     min-height: 11em; 
-
-}
-
-.special-title {
-    color:crimson;
-    padding-bottom: 5px;
+    position:relative;
 }
 
 .volunteer-name {
     font-weight: bold;
 }
+
+.volunteer-title {
+    min-height: 4em;
+}
+.special-title {
+    color:crimson;
+    padding-top: 1em;
+}
+
+
 
 /*---- Sponsor Panel Styling ----*/
 .sponsors-logo {
