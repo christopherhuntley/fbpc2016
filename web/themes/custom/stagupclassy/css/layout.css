@@ -243,6 +243,11 @@ h3.media-heading {
 
 .special-title {
     color:crimson;
+    padding-bottom: 5px;
+}
+
+.volunteer-name {
+    font-weight: bold;
 }
 
 /*---- Sponsor Panel Styling ----*/
