@@ -39,7 +39,8 @@
 <html {{ html_attributes }}>
   <head>
     {{ head }}
-    <title>{{ head_title|safe_join(' | ') }}</title>
+      
+    <title>{{ head_title|safe_join(' - ') }}</title>
     {{ styles }}
     {{ scripts }}
   </head>
@@ -49,6 +50,7 @@
     </a>
     
     {{ page_top }}
+      {{ kint(head_title|keys) }}
     {{ page }}
     {{ page_bottom }}
     {{ scripts_bottom }}
