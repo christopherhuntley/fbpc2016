@@ -250,7 +250,13 @@ h3.media-heading {
 }
 .special-title {
     color:crimson;
-    padding-top: 1em;
+    padding: 0.5em;
+    text-align: center;
+    background-color: #efefef;
+    position: absolute;
+    bottom: 0.25em;
+    right: 0.25em;
+    left: 0.25em;
 }
 
 
