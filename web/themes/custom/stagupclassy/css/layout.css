@@ -121,7 +121,7 @@ body.toolbar-fixed .navbar-fixed-top { top: 75px !important; }
     width:100%;
 }
 
-.feature-panel .btn {
+#feature-panel .btn {
     margin: 0.5em auto 0;
 }
 
