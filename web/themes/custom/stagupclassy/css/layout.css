@@ -105,7 +105,7 @@ body.toolbar-fixed .navbar-fixed-top { top: 75px !important; }
 }
 
 .featured-events-top {
-    position: relative; 
+    position: relative;
 }
 
 .featured-events-bottom {
@@ -231,13 +231,13 @@ h3.media-heading {
 }
 
 .thumbnail .socicon {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 
 .view-mentors-and-advisors .thumbnail .caption {
     /* min-height: 120px; */
-    min-height: 11em; 
+    min-height: 11em;
     position:relative;
 }
 
@@ -287,7 +287,7 @@ h3.media-heading {
     background-color: #2f2f2f;
     padding: 30px;
     margin-top:6£¢∞0px;
-    
+
 }
 
 .region-footer .panel {
@@ -315,7 +315,7 @@ h3.media-heading {
 
 .block-social-media-links .panel-heading {
     background-color: transparent;
-    color: #333; 
+    color: #333;
     text-align:center;
 }
 
@@ -328,26 +328,26 @@ h3.media-heading {
 
 /*---- Media Queries for tweaks at common breakpoints ----*/
 @media (min-width: 1200px) {
-    
+
 }
 
 @media (max-width: 960px) {
     body {
         font-size: 14px;
     }
-    
+
 }
 
 @media (max-width: 768px) {
-    
+
     body {
         font-size: 12px;
     }
-    
+
     #feature-text-container {
         top: 1em;
     }
-    
+
     .thumbnail .caption {
         font-size:1em;
     }
@@ -362,25 +362,18 @@ h3.media-heading {
     body {
         font-size: 11px;
     }
-    
+
     #feature-text-container {
         top: 2px;
     }
-    
+
     .main-content {
         margin: 64px 0 0;
     }
-    
+
     .thumbnail .caption {
         font-size:1em;
     }
-    
-    
+
+
 }
-
-
-
-
-
-
-
