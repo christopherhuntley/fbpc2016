@@ -243,6 +243,12 @@ h3.media-heading {
 
 .volunteer-name {
     font-weight: bold;
+    display:inline-block;
+}
+
+.volunteer-year {
+    font-weight: bold;
+    display:inline-block;
 }
 
 .volunteer-title {

@@ -96,6 +96,9 @@
     <div class="caption">
     
         <div class="volunteer-name">{{ label }}</div>
+        {% if content.field_alum_class_of_['#items'][0].value %}
+            <div class="volunteer-year">'{{ content.field_alum_class_of_['#items'][0].value[2:3] }}</div>
+        {% endif %}
         <div class="volunteer-title"> {{ content.field_title_employer}} </div>
     {% if content.field_special_role['#items'][0].value %}
       <div class="special-title"> {{ content.field_special_role }} </div>
