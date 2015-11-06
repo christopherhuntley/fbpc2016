@@ -269,6 +269,7 @@ h3.media-heading {
 
 /*---- Sponsor Panel Styling ----*/
 .sponsors-logo {
+    margin: 15px;
     padding: 10px;
     width:220px;
     height:100px;
