@@ -34,7 +34,7 @@
       {% for item in items %}
         <li{{ item.attributes }}>
           {% if item.url.options['fragment'] %} 
-            {% if item.url.options['fragment']|striptags == 'join' %}
+            {% if item.url.options['fragment']|striptags == 'joinourteam' %}
                 <a href="{{ item.url }}" data-target="#{{ item.url.options['fragment'] }}" class="call-to-action">{{ item.title }} </a>
             {% else %}
                 <a href="{{ item.url }}" data-target="#{{ item.url.options['fragment'] }}">{{ item.title }} </a>
