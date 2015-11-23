@@ -302,6 +302,7 @@ h3.media-heading {
     position: absolute;
     right: 5px;
     top: -30px;
+    z-index:101;
     
 /*
     float:right;
@@ -319,7 +320,7 @@ h3.media-heading {
 }
 
 .sponsor-level-title p {
-    background-color: #eee;
+    background-color: rgba(213,213,213,0.8);
     padding: 5px;
 }
 
