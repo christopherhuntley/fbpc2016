@@ -1,0 +1,48 @@
+{#
+/**
+ * @file
+ * Theme override to display of the logo grid in the Sponsors block
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ */
+#}
+
+{% set gridclass = 'col-md-4' %}
+{% if title|striptags|title == 'Gold' %}
+    {# set gridclass = 'col-md-6' #}
+    {% set tooltip = '$5,000 or more' %}
+{% elseif title|striptags|title == 'Silver' %}
+    {# set gridclass = 'col-md-4' #}
+    {% set tooltip = '$2,500' %}
+{% elseif title|striptags|title == 'Bronze' %}
+    {# set gridclass = 'col-md-3' #}
+    {% set tooltip = '$1,000' %}
+{% elseif title|striptags|title == 'Partner' %}
+    {# set gridclass = 'col-md-3' #}
+    {% set tooltip = 'At least $1000 worth of services' %}
+{% else %}
+    {% set tooltip = '' %}
+{% endif %}
+
+<div class="sponsor-level row">
+{% if title %}
+    <div class="sponsor-level-title">
+        <h3><a href="#{{ title }}" data-toggle="collapse">{{ title }}</a></h3>
+        <p id="{{ title }}" class="collapse">{{ tooltip }}</p>
+    </div>
+{% endif %}
+{% for row in rows %}
+  <div class="{{ gridclass }} views-row">
+    {{ row.content }}
+  </div>
+{% endfor %}
+</div>

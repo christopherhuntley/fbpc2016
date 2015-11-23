@@ -77,13 +77,12 @@
 %}
 
 <div class="sponsors-logo">
-
-{% if content.field_website['#items'][0].uri %}
-<a href="{{ content.field_website['#items'][0].uri }}">
-    {{ content.field_logo }}
-</a>
-{% else %}
-    {{ content.field_logo }}
-{% endif %}
+    {% if content.field_website['#items'][0].uri %}
+    <a href="{{ content.field_website['#items'][0].uri }}">
+        {{ content.field_logo }}
+    </a>
+    {% else %}
+        {{ content.field_logo }}
+    {% endif %}
 </div>
 

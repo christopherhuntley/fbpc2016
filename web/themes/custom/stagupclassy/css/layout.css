@@ -35,6 +35,15 @@ body {
     color:white;
 }
 
+.navbar-nav .call-to-action {
+    color: hsl(51,100%,50%) !important;
+}
+
+.navbar-nav .call-to-action:hover {
+    color: hsl(51,100%,80%) !important;
+}
+
+
 /*---- Layout Bugfixes ---*/
 
 /* hide messages until we know what to do with them */
@@ -271,12 +280,49 @@ h3.media-heading {
 .sponsors-logo {
     margin: 15px;
     padding: 10px;
-    width:220px;
-    height:100px;
+    width:100%;
+    max-width: 200px;
+    
     float:left;
     display:inline-block;
     vertical-align:middle;
 }
+
+.sponsors-logo img {
+    width:100%;
+    height: auto;
+    margin:auto;
+}
+
+.sponsor-level {
+    position:relative;
+}
+
+.sponsor-level-title {
+    position: absolute;
+    right: 5px;
+    top: -30px;
+    
+/*
+    float:right;
+    margin-right: 5px;
+    margin-top: -20px;
+*/
+}
+.sponsor-level-title h3 {
+    text-align: right;
+}
+
+.sponsor-level-title h3, .sponsor-level-title p {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.sponsor-level-title p {
+    background-color: #eee;
+    padding: 5px;
+}
+
 
 /*---- Twitter Styling ----*/
 #block-twittertimeline .panel-body {

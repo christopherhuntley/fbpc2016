@@ -34,7 +34,12 @@
       {% for item in items %}
         <li{{ item.attributes }}>
           {% if item.url.options['fragment'] %} 
-          <a href="{{ item.url }}" data-target="#{{ item.url.options['fragment'] }}">{{ item.title }} </a>
+            {% if item.url.options['fragment']|striptags == 'join' %}
+                <a href="{{ item.url }}" data-target="#{{ item.url.options['fragment'] }}" class="call-to-action">{{ item.title }} </a>
+            {% else %}
+                <a href="{{ item.url }}" data-target="#{{ item.url.options['fragment'] }}">{{ item.title }} </a>
+            {% endif %}
+          
           {% else %}
             {{ link(item.title, item.url) }}
           {%endif%}
