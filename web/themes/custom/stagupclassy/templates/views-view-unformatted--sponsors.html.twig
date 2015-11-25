@@ -35,7 +35,7 @@
 
 <div class="sponsor-level row">
 {% if title %}
-    <div class="sponsor-level-title">
+    <div class="sponsor-level-title {{ title|striptags|title|lower}} ">
         <h3><a href="#{{ title }}" data-toggle="collapse">{{ title }}</a></h3>
         <p id="{{ title }}" class="collapse">{{ tooltip }}</p>
     </div>
