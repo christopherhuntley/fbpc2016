@@ -12,7 +12,7 @@ function stagupclassy_preprocess_block(&$variables) {
   $variables['basepath'] = base_path();
   $logopath = '/' . 
               drupal_get_path('theme','stagupclassy') . 
-              '/FairfieldStagUp.png';
+              '/FairfieldStartUp.png';
   if (base_path() != "/") 
     $logopath = base_path() . $logopath;
   $variables['logopath'] = $logopath ;
